@@ -1,0 +1,11 @@
+/***** General style *****/
+
+body {
+    background: #333;
+    color: #fff;
+}
+
+
+#mapid { 
+    height: 700px; 
+}
