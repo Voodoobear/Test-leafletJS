@@ -1,11 +1,30 @@
-/***** General style *****/
-
+/***** MAIN CSS *****/
 body {
-    background: #333;
-    color: #fff;
-}
+  background: #333;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0; }
 
+header img {
+  width: 100%;
+  margin-bottom: 50px;
+  border-top: 1px solid #f00;
+  border-bottom: 1px solid #f00; }
+header h1 {
+  text-align: center;
+  font-size: 3em; }
 
-#mapid { 
-    height: 700px; 
-}
+/***** FOOTER *****/
+footer {
+  background: #be2f2f; }
+  footer .copyright {
+    text-align: center;
+    margin: 50px auto; }
+
+#mapid {
+  height: 700px;
+  border: 2px solid #f00;
+  border-radius: 15px; }
+
+/*# sourceMappingURL=style.css.map */

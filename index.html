@@ -1,21 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" size="38x38" href="favicon.png">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
-    <link rel="stylesheet" href="./velov.css">
-    <title>Velo'v</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Velo'v - Lyon</title>
 </head>
 <body>
-    <h1>Easy Velo' - Ville de Lyon</h1>
+    <!-- Header -->
+    <header>
+        <img src="./img/header.png" alt="Only Lyon Vélo'v" />
+    </header>
 
+    <!-- Conteneur de la carte et des marqueurs -->
     <div id="mapid"></div>
 
+
+    <!-- Footer -->
+    <footer>
+        <p class="copyright">Projet Velo'v - © Copyright Sébastien Camberou <script>document.write(new Date().getFullYear())</script> </p>
+    </footer>
+    
+    <!-- Tout les scripts nécessaires -->
     <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
     integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
     crossorigin=""></script>
-    <script src="./velov.js"></script>
+    <script src="./js/ajax.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
